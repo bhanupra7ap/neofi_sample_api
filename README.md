@@ -5,6 +5,7 @@
         cd myvenv
         cd bin
         source activate
+~    exit the directory /myvenv/bin
 ~   run the following commands in the same order
         python manage.py makemigrations
         python manage.py migrate
