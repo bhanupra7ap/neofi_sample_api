@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Neofi App</title>
+</head>
+<body>
+    <h1>Welcome to Neofi App</h1>
+    <nav>
+        <ul>
+            <li><a href="{% url 'signup' %}">Sign Up</a></li>
+            <li><a href="{% url 'login' %}">Login</a></li>
+            <li><a href="{% url 'create_note' %}">Create Note</a></li>
+            <li><a href="{% url 'get_note' id=1 %}">View Note</a></li>
+            <li><a href="{% url 'share_note' %}">Share Note</a></li>
+            <li><a href="{% url 'update_note' id=1 %}">Update Note</a></li>
+            <li><a href="{% url 'get_note_version_history' id=1 %}">View Version History</a></li>
+            <!-- Replace 'id=1' with the actual ID of the note -->
+        </ul>
+    </nav>
+</body>
+</html>
+
